@@ -1,0 +1,37 @@
+{
+  "model_name": "msc_ai_contardi_resnet50_cifar10",
+  "model_type": "ResNet50 Transfer Learning",
+  "accuracy": 0.9494444727897644,
+  "inference_time_ms": 28.58255624771118,
+  "model_size_mb": 92.11722564697266,
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "original_input_shape": [
+    32,
+    32,
+    3
+  ],
+  "preprocessing": "Resize to 224x224, ResNet50 preprocessing",
+  "num_classes": 10,
+  "framework": "TensorFlow 2.19.0",
+  "training_time_minutes": 327.9550253748894,
+  "phase1_time_minutes": 124.83962942361832,
+  "phase2_time_minutes": 203.11539595127107,
+  "best_epoch_frozen": 7,
+  "best_epoch_total": 21,
+  "class_names": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ]
+}

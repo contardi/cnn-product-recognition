@@ -1,0 +1,28 @@
+{
+  "model_name": "msc_ai_contardi_cnn_cifar10",
+  "accuracy": 0.8730000257492065,
+  "inference_time_ms": 0.7546544075012207,
+  "model_size_mb": 1.1715469360351562,
+  "input_shape": [
+    32,
+    32,
+    3
+  ],
+  "num_classes": 10,
+  "preprocessing": "normalize to [0,1]",
+  "framework": "TensorFlow 2.18.0",
+  "training_time_minutes": 4.910317611694336,
+  "best_epoch": 41,
+  "class_names": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ]
+}
